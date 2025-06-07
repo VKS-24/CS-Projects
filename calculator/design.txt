@@ -1,0 +1,16 @@
+1. Calculator implementation
+
++, -, *, /, Optional --> brackets, trignomotry, factorial, 1/x, power
+
+2. User interface
+
+    website/app
+
+    - website
+        * Javacript, HTML, CSS
+    
+    - app
+        * Flutter
+
+    Backend
+        * Python -- ( REST Server)
