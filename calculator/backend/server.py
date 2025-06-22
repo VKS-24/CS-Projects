@@ -1,8 +1,12 @@
 '''THis server will serve all calculator queries'''
 
 from flask import Flask, request, Response, jsonify
+from flask_cors import CORS, cross_origin
 from calc import calculate
+
 app = Flask(__name__)
+cors = CORS(app) # allow CORS for all domains on all routes.
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/")
 def hello_world():
